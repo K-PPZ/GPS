@@ -1,0 +1,8 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+
+    & #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+        height:400px;
+    }
+}
